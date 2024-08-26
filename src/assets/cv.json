@@ -1,0 +1,51 @@
+{
+    "name": "Luis Herrera",
+    "profession": "Full Stack",
+    "resume": "Full Stack Developer with 4 years of experience who enjoys working in dynamic environments. Self-taught and proactive. Lover of technology and philosophy.",
+    "experience": [
+        {
+            "company": "Applydigital",
+            "jobTitle": "Full Stack Developer",
+            "startDate": "01/2021",
+            "isCurrent": true,
+            "description": "Development of web solutions for different multinational companies, under responsibilities of layout (Tailwind, Ant Design, Material), frontend integration (Angular, ReactJs) and backend (NestJS); along with unit tests and e2e."
+        },
+        {
+            "company": "VZOR",
+            "jobTitle": "Front End Developer",
+            "startDate": "09/2020",
+            "endDate": "01/2021",
+            "description": "Development and integration of the new portal for VZOR. Technologies used: Angular 9, SCSS, Bootstrap."
+        },
+        {
+            "company": "Crypto Capital Asset Platform",
+            "jobTitle": "Front End Developer",
+            "startDate": "10/2019",
+            "endDate": "04/2020",
+            "description": "Frontend development of a website for the creation of tokens on the Ethereum blockchain."
+        },
+        {
+            "company": "BIRSA PERU",
+            "jobTitle": "Front End Developer",
+            "startDate": "06/2019",
+            "endDate": "09/2019",
+            "description": "Development of a web application for a construction company in Laravel framework. Creation of a system for registering and monitoring merchandise. Responsible for the creation of layout and implementation of forms and validations, communication with the company's API and data display."
+        }
+    ],
+    "certifications": [
+        "Machine Learning from Linear Models to Deep Learning",
+        "Architecture, Algorithms, and Protocols of a Quantum Computer and Quantum Internet"
+    ],
+    "contact": [
+        {
+            "type": "email",
+            "href": "mailto:perolehs@gmail.com",
+            "label": "Email: "
+        },
+        {
+            "type": "social",
+            "red": "linkedin",
+            "href": "https://www.linkedin.com/in/lehs"
+        }
+    ]
+}
