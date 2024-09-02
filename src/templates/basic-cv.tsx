@@ -3,6 +3,7 @@ import { CV } from "../types/cv-data.type";
 const currentLabel = "Current";
 export const BasicCV = ({
   name,
+  resume,
   profession,
   experience,
   certifications,
@@ -15,6 +16,7 @@ export const BasicCV = ({
       </header>
       <main>
         {/* Short description */}
+        <p>{resume}</p>
         <section>
           <h2>Experience</h2>
           <ul>
