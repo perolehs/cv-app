@@ -1,17 +1,19 @@
 import { CV } from "../types/cv-data.type";
 
 const currentLabel = "Current";
-export const BasicCV = ({ name, profession, experience, certifications }: CV) => {
+export const BasicCV = ({
+  name,
+  profession,
+  experience,
+  certifications,
+}: CV) => {
   return (
-    <>
+    <div className="cv-container">
       <header>
         <h1>{name}</h1>
+        <h2>{profession}</h2>
       </header>
       <main>
-        <section>
-          {/* Profession */}
-          <h2>{profession}</h2>
-        </section>
         {/* Short description */}
         <section>
           <h2>Experience</h2>
@@ -19,7 +21,8 @@ export const BasicCV = ({ name, profession, experience, certifications }: CV) =>
             {experience.map((exp) => (
               <li>
                 <h3>
-                  {exp.company} ({exp.startDate} - {exp.endDate ?? currentLabel})
+                  {exp.company} ({exp.startDate} - {exp.endDate ?? currentLabel}
+                  )
                 </h3>
                 <p>{exp.description}</p>
               </li>
@@ -37,6 +40,6 @@ export const BasicCV = ({ name, profession, experience, certifications }: CV) =>
           </ul>
         </section>
       </main>
-    </>
+    </div>
   );
 };
